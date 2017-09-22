@@ -17,8 +17,16 @@ order: 5
 ---
 
 ## Related Courses
+- [Principles of Economics](http://online.stanford.edu/course/principles-economics-summer-2017) (John Taylor, Stanford)
 - [Principles of Microeconomics](https://ocw.mit.edu/courses/economics/14-01sc-principles-of-microeconomics-fall-2011/index.htm) (Jonathan Gruber, MIT)
 - [Principles of Macroeconomics](https://ocw.mit.edu/courses/economics/14-02-principles-of-macroeconomics-spring-2014/) (Francesco Giavazzi, MIT)
+
+---
+
+## Films
+
+- Niall Ferguson, [The Ascent of Money](http://www.pbs.org/wnet/ascentofmoney/)
+    - We will be screening this film during the semester.
 
 ---
 
