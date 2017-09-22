@@ -3,7 +3,7 @@
 # Setup
 title:               Principles of Economics
 tagline:             'Jiaming Mao'
-description:         ''
+description:         'Course website for Principles of Economics at Xiamen University by Jiaming Mao'
 url:                 'http://jiamingmao.github.io'
 baseurl:             '/principles-of-economics'
 
@@ -45,3 +45,6 @@ exclude:
 
 # Theme
 theme: "ed."
+
+plugins:
+  - jekyll-seo-tag
