@@ -33,11 +33,10 @@ order: 5
 ## Economic and Financial News and Publications
 
 ### Economic and Financial News
-- [The Wall Street Journal](www.wsj.com)
+- [The Wall Street Journal](http://www.wsj.com)
 - [Financial Times](http://www.ft.com)
-- [The Economist](economist.com)
-- [Bloomberg News](https://www.bloomberg.com/)
-- [Caixin](https://www.caixinglobal.com/)
+- [The Economist](http://economist.com)
+- [Caixin](http://www.caixin.com/?HOLDZH)
 
 ### Economic and Policy Analysis
 - [VoxEU](http://www.voxeu.org/)
@@ -46,7 +45,6 @@ order: 5
 ### Business and Management
 - [Harvard Business Review](https://hbr.org/)
 - [Knowledge@Wharton](http://knowledge.wharton.upenn.edu/)
-- [Insights by Stanford Business](https://www.gsb.stanford.edu/insights)
 - [Chicago Booth Review](http://review.chicagobooth.edu/)
 
 ### Academic Journal
