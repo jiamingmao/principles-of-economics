@@ -35,8 +35,9 @@ order: 5
 ### Economic and Financial News
 - [The Wall Street Journal](www.wsj.com)
 - [Financial Times](http://www.ft.com)
-- [Bloomberg News](https://www.bloomberg.com/)
 - [The Economist](economist.com)
+- [Bloomberg News](https://www.bloomberg.com/)
+- [Caixin](https://www.caixinglobal.com/)
 
 ### Economic and Policy Analysis
 - [VoxEU](http://www.voxeu.org/)
