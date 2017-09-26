@@ -33,9 +33,9 @@ order: 5
 ## Economic and Financial News and Publications
 
 ### Economic and Financial News
-- [The Wall Street Journal](http://www.wsj.com)
-- [Financial Times](http://www.ft.com)
-- [The Economist](http://economist.com)
+- [The Wall Street Journal](https://www.wsj.com)
+- [Financial Times](https://www.ft.com)
+- [The Economist](https://www.economist.com)
 - [Caixin](http://www.caixin.com/?HOLDZH)
 
 ### Economic and Policy Analysis

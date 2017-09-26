@@ -14,7 +14,7 @@ order: 4
 
 The materials for this course are hosted on `Github` at [github.com/jiamingmao/principles-of-economics](http://www.github.com/jiamingmao/principles-of-economics). Since the course materials are continually updated throughout the semester, it is recommended that you `fork` this repo, and regularly sync it with the original. You can do this using `git` on the command line or using a GUI such as [Github Desktop](https://desktop.github.com/).
 
-[This tutorial](https://github.com/kevinjliang/Duke-Tsinghua-MLSS-2017/blob/master/00C_Git_Basics.ipynb) walks you through the steps to do so. If you want to learn more about `git` and `Github`, here are some places to start:
+[This tutorial](https://github.com/gaoqinghui/POE-TA-Sessions/blob/master/Git%20Basics.md) walks you through the steps to do so. If you want to learn more about `git` and `Github`, here are some places to start:
 
 - Code School: [Try Git](https://try.github.io/levels/1/challenges/1)
 - Launch School: [A Guide to Git and Github](https://launchschool.com/books/git/)
