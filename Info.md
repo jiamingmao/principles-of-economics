@@ -22,7 +22,6 @@ Email: <631396640@qq.com>
 ## Syllabus
 - The official syllabus ([pdf](https://l.xmu.edu.cn/course/view.php?id=921))
 - All you need to know about this course ([slides](http://htmlpreview.github.io/?https://github.com/jiamingmao/principles-of-economics/blob/master/Course%20Info/courseinfo.html))
-- Final grade calculation: a guide for the perplexed ([pdf](https://github.com/jiamingmao/principles-of-economics/blob/master/Course%20Info/Final_Grade_Calculation.pdf))
 
 ---
 
