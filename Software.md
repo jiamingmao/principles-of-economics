@@ -14,7 +14,7 @@ order: 4
 
 The materials for this course are hosted on `Github` at [github.com/jiamingmao/principles-of-economics](http://www.github.com/jiamingmao/principles-of-economics). Since the course materials are continually updated throughout the semester, it is recommended that you `fork` this repo, and regularly sync it with the original. You can do this using `git` on the command line or using a GUI such as [Github Desktop](https://desktop.github.com/).
 
-[This tutorial](https://github.com/gaoqinghui/POE-TA-Sessions/blob/master/Git%20Basics.md) walks you through the steps to do so. If you want to learn more about `git` and `Github`, here are some places to start:
+[This tutorial](https://github.com/jiamingmao/principles-of-economics/blob/master/Software/Git%20Basics.md) walks you through the steps to do so. If you want to learn more about `git` and `Github`, here are some places to start:
 
 - Code School: [Try Git](https://try.github.io/levels/1/challenges/1)
 - Launch School: [A Guide to Git and Github](https://launchschool.com/books/git/)
@@ -52,7 +52,7 @@ In this course, it is recommended that you write your homework and reports in `m
 - [Markdown Tutorial](https://www.markdowntutorial.com/)
 - [The Ultimate Guide to Markdown](https://blog.ghost.org/markdown/)
 
-There are many editors you can use to write in `markdown`. For example, you can try the online `markdown` and `LaTex` editor [Upmath](https://upmath.me/), or use a general purpose editor such as [Atom](https://atom.io/).
+There are many editors you can use to write in `markdown`. For example, you can try the online `markdown` editor [dillinger](https://dillinger.io/), or use a general purpose editor such as [Atom](https://atom.io/).
 
 Or you can use `RStudio`. `RStudio` allows you to write in `R markdown` -- a variant of the `markdown` language that allows you to include `R` codes and automatically generate their output. See:
 - [The official R Markdown documentation](http://rmarkdown.rstudio.com/)
