@@ -16,3 +16,5 @@ order: 2
     - Jensen, R. T. and N. H. Miller. 2008. "Giffen Behavior and Subsistence Consumption," _AER_. [[link](http://campuspress.yale.edu/dirkbergemann/files/2012/01/giffen-good.pdf)]
         - Giffen Behavior ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Readings/Giffen_Behavior.pdf))
         - The Indiana Jones of Economics [[link](https://github.com/jiamingmao/principles-of-economics/blob/master/Readings/The%20Indiana%20Jones%20of%20Economics.pdf)]
+
+  3. Supply and Demand ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/03_Elasticity.pdf))
