@@ -18,5 +18,7 @@ order: 2
         - Giffen Behavior ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Readings/Giffen_Behavior.pdf))
         - The Indiana Jones of Economics [[link](https://github.com/jiamingmao/principles-of-economics/blob/master/Readings/The%20Indiana%20Jones%20of%20Economics.pdf)]
 
-  3. Welfare Analysis ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/04_Welfare_Analysis.pdf))
+3. Welfare Analysis ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/04_Welfare_Analysis.pdf))
       - Consumer and Producer Surplus [[video](https://www.youtube.com/watch?v=kCKWV-94nsY)]
+
+4. Economic Analysis of Taxation ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/05_Taxation.pdf)) 
