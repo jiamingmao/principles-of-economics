@@ -5,25 +5,25 @@ order: 2
 ---
 <p style="height: 1px"></p>
 
-1. Introduction ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/01_Introduction.pdf))
+1. Introduction ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Introduction.pdf))
     - What is Economics? [[video](https://l.xmu.edu.cn/course/view.php?id=921)]
     - Opportunity Cost [[music](https://www.youtube.com/watch?v=81Q-jkFdTFM)]
     - Micro and Macro: The Economic Divide [[link](http://www.imf.org/external/pubs/ft/fandd/basics/bigsmall.htm)]
     - Backhouse, R. E. and S. G. Medema, "Retrospectives: On the Definition of Economics," _JEP_. [[link](http://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.23.1.221)]
 
-2. Supply and Demand ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/02_Supply_and_Demand.pdf))
+2. Supply and Demand ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Supply_and_Demand.pdf))
     - Price Control ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Price_Control.pdf))
-    - Elasticity ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/03_Elasticity.pdf))
+    - Elasticity ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Elasticity.pdf))
     - Double Auction ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Double_Auction.pdf))
     - `Game:` Competitive Markets [[link](https://www.moblab.com/games/continuous-market-game/)]
     - Jensen, R. T. and N. H. Miller, "Giffen Behavior and Subsistence Consumption," _AER_. [[link](http://campuspress.yale.edu/dirkbergemann/files/2012/01/giffen-good.pdf)]
         - Giffen Behavior ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Giffen_Behavior.pdf))
         - The Indiana Jones of Economics [[link](https://github.com/jiamingmao/principles-of-economics/blob/master/Readings/The%20Indiana%20Jones%20of%20Economics.pdf)]
 
-3. Welfare Analysis ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/04_Welfare_Analysis.pdf))
+3. Welfare Analysis ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Welfare_Analysis.pdf))
       - Consumer and Producer Surplus [[video](https://www.youtube.com/watch?v=kCKWV-94nsY)]
 
-4. Economic Analysis of Taxation ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/05_Taxation.pdf))
+4. Economic Analysis of Taxation ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Taxation.pdf))
     - Corporate Taxation and Tax Avoidance ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Corporate_Taxation_and_Tax_Avoidance.pdf))
     - The Incidence of EITC [[link](https://www.economist.com/news/finance-and-economics/21656710-reducing-wage-subsidies-would-hurt-workers-more-their-employers-credit-where)]
     - The Taxation of Carried Interest [[link](http://www.nytimes.com/2012/03/04/business/capital-gains-vs-ordinary-income-economic-view.html)]
