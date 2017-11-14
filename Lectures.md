@@ -9,7 +9,7 @@ order: 2
     - What is Economics? [[video](https://l.xmu.edu.cn/course/view.php?id=921)]
     - Opportunity Cost [[music](https://www.youtube.com/watch?v=81Q-jkFdTFM)]
     - Micro and Macro: The Economic Divide [[link](http://www.imf.org/external/pubs/ft/fandd/basics/bigsmall.htm)]
-    - Backhouse, R. E. and S. G. Medema, "Retrospectives: On the Definition of Economics," _JEP_ [[link](http://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.23.1.221)]
+    - Backhouse, R. E. and S. G. Medema, "Retrospectives: On the Definition of Economics," _JEP_. [[link](http://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.23.1.221)]
 
 2. Supply and Demand ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/02_Supply_and_Demand.pdf))
     - Price Control ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Price_Control.pdf))
@@ -26,6 +26,15 @@ order: 2
 4. Economic Analysis of Taxation ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/05_Taxation.pdf))
     - The Incidence of EITC [[link](https://www.economist.com/news/finance-and-economics/21656710-reducing-wage-subsidies-would-hurt-workers-more-their-employers-credit-where)]
     - `Game:` Competitive Markets with Interventions [[link](https://www.moblab.com/games/continuous-market-game/)]
+    - Hines Jr., J. R., "Taxing Consumption and Other Sins," _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.21.1.49)]
     - Alesina et al., "Gender-Based Taxation and the Division of Family Chores," _AEJ: Economic Policy_. [[link](https://www.aeaweb.org/articles?id=10.1257/pol.3.2.1)]
         - Using tax policy to empower women [[link](http://voxeu.org/article/using-tax-policy-empower-women)]
         - Why women should pay less tax [[link](https://www.ft.com/content/3fb9f856-ed10-11db-9520-000b5df10621)]
+5. Public Economics ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Public_Economics.pdf))
+    - Markets for Pollution Allowances ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Markets_for_Pollution_Allowances.pdf))
+    - The Tragedy Of The Commons [[video](https://www.youtube.com/watch?v=WYA1y405JW0)]
+    - The Tragedy Of The Commons [[music](https://www.youtube.com/watch?v=cuIkkHTHVHI)]
+    - `Game:` Public Goods [[link](https://www.moblab.com/games/linear-public-goods-games/)]
+    - `Game:` Commons: Fishery [[link](https://www.moblab.com/games/commons-fishery-game/)]
+    - Metcalf, G. E., "Market-Based Policy Options to Control U.S. Greenhouse Gas Emissions," _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.23.2.5)]
+    - Newell et al., "Carbon Markets 15 Years after Kyoto: Lessons Learned, New Challenges," _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.27.1.123)]
