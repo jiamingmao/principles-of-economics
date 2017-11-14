@@ -24,9 +24,11 @@ order: 2
       - Consumer and Producer Surplus [[video](https://www.youtube.com/watch?v=kCKWV-94nsY)]
 
 4. Economic Analysis of Taxation ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/05_Taxation.pdf))
+    - Corporate Taxation and Tax Avoidance ([slides]())
     - The Incidence of EITC [[link](https://www.economist.com/news/finance-and-economics/21656710-reducing-wage-subsidies-would-hurt-workers-more-their-employers-credit-where)]
+    - The Taxation of Carried Interest [[link](http://www.nytimes.com/2012/03/04/business/capital-gains-vs-ordinary-income-economic-view.html)]
     - `Game:` Competitive Markets with Interventions [[link](https://www.moblab.com/games/continuous-market-game/)]
-    - Hines Jr., J. R., "Taxing Consumption and Other Sins," _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.21.1.49)]
+    - Mankiw et al., "Optimal Taxation in Theory and Practice," _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.23.4.147)]
     - Alesina et al., "Gender-Based Taxation and the Division of Family Chores," _AEJ: Economic Policy_. [[link](https://www.aeaweb.org/articles?id=10.1257/pol.3.2.1)]
         - Using tax policy to empower women [[link](http://voxeu.org/article/using-tax-policy-empower-women)]
         - Why women should pay less tax [[link](https://www.ft.com/content/3fb9f856-ed10-11db-9520-000b5df10621)]
