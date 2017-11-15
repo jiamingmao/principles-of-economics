@@ -34,8 +34,8 @@ order: 2
         - Why women should pay less tax [[link](https://www.ft.com/content/3fb9f856-ed10-11db-9520-000b5df10621)]
 5. Public Economics ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Public_Economics.pdf))
     - Markets for Pollution Allowances ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Markets_for_Pollution_Allowances.pdf))
-    - The Tragedy Of The Commons [[video](https://www.youtube.com/watch?v=WYA1y405JW0)]
-    - The Tragedy Of The Commons [[music](https://www.youtube.com/watch?v=cuIkkHTHVHI)]
+    - The Tragedy of the Commons [[video](https://www.youtube.com/watch?v=WYA1y405JW0)]
+    - The Tragedy of the Commons [[music](https://www.youtube.com/watch?v=cuIkkHTHVHI)]
     - `Game:` Public Goods [[link](https://www.moblab.com/games/linear-public-goods-games/)]
     - `Game:` Commons: Fishery [[link](https://www.moblab.com/games/commons-fishery-game/)]
     - Metcalf, G. E., "Market-Based Policy Options to Control U.S. Greenhouse Gas Emissions," _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.23.2.5)]
