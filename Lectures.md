@@ -22,6 +22,7 @@ order: 2
 
 3. Welfare Analysis ([slides]({{ site.baseurl }}/assets/Lectures/Welfare_Analysis.pdf))
       - Consumer and Producer Surplus [[video](https://www.youtube.com/watch?v=kCKWV-94nsY)]
+      - Waldfogel, J., "The Deadweight Loss of Christmas," _AER_. [[link](http://www.jstor.org/stable/2117564?seq=1#page_scan_tab_contents)]
 
 4. Economic Analysis of Taxation ([slides]({{ site.baseurl }}/assets/Lectures/Taxation.pdf))
     - Corporate Taxation and Tax Avoidance ([slides]({{ site.baseurl }}/assets/Lectures/Corporate_Taxation_and_Tax_Avoidance.pdf))
@@ -30,8 +31,8 @@ order: 2
     - `Game:` Competitive Markets with Interventions [[link](https://www.moblab.com/games/continuous-market-game/)]
     - Mankiw et al., "Optimal Taxation in Theory and Practice," _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.23.4.147)]
     - Alesina et al., "Gender-Based Taxation and the Division of Family Chores," _AEJ: Economic Policy_. [[link](https://www.aeaweb.org/articles?id=10.1257/pol.3.2.1)]
-        - Using tax policy to empower women [[link](http://voxeu.org/article/using-tax-policy-empower-women)]
         - Why women should pay less tax [[link](https://www.ft.com/content/3fb9f856-ed10-11db-9520-000b5df10621)]
+
 5. Public Economics ([slides]({{ site.baseurl }}/assets/Lectures/Public_Economics.pdf))
     - Markets for Pollution Allowances ([slides]({{ site.baseurl }}/assets/Lectures/Markets_for_Pollution_Allowances.pdf))
     - The Tragedy of the Commons [[video](https://www.youtube.com/watch?v=WYA1y405JW0)]
