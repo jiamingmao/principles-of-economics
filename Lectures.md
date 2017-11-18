@@ -5,6 +5,8 @@ order: 2
 ---
 <p style="height: 1px"></p>
 
+Introduction([slides]({{ site.baseurl }}/assets/Introduction.pdf))
+
 1. Introduction ([slides](https://github.com/jiamingmao/principles-of-economics/blob/master/Lectures/Introduction.pdf))
     - What is Economics? [[video](https://l.xmu.edu.cn/course/view.php?id=921)]
     - Opportunity Cost [[music](https://www.youtube.com/watch?v=81Q-jkFdTFM)]
