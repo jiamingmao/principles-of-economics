@@ -23,6 +23,7 @@ order: 2
 3. Welfare Analysis ([slides]({{ site.baseurl }}/assets/Lectures/Welfare_Analysis.pdf))
       - Consumer and Producer Surplus [[video](https://www.youtube.com/watch?v=kCKWV-94nsY)]
       - Waldfogel, J., "The Deadweight Loss of Christmas," _AER_. [[link](http://www.jstor.org/stable/2117564?seq=1#page_scan_tab_contents)]
+          - Christmas and the Efficiency of Gift-Exchange ([slides]({{ site.baseurl }}/assets/Lectures/Christmas_and_the_Efficiency_of_Gift-Exchange.pdf))
 
 4. Economic Analysis of Taxation ([slides]({{ site.baseurl }}/assets/Lectures/Taxation.pdf))
     - Corporate Taxation and Tax Avoidance ([slides]({{ site.baseurl }}/assets/Lectures/Corporate_Taxation_and_Tax_Avoidance.pdf))
