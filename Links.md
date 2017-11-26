@@ -35,17 +35,16 @@ order: 5
 ### Economic and Financial News
 - [The Wall Street Journal](https://www.wsj.com)
 - [Financial Times](https://www.ft.com)
-- [Bloomberg](https://www.bloomberg.com)
 - [The Economist](https://www.economist.com)
 - [Caixin](http://www.caixin.com/?HOLDZH)
 
 ### Economic and Policy Analysis
-- [VoxEU](http://www.voxeu.org/)
+- [VoxEU](http://www.voxeu.org)
 
 ### Business and Management
-- [Harvard Business Review](https://hbr.org/)
-- [Knowledge@Wharton](http://knowledge.wharton.upenn.edu/)
-- [Chicago Booth Review](http://review.chicagobooth.edu/)
+- [Harvard Business Review](https://hbr.org)
+- [Knowledge@Wharton](http://knowledge.wharton.upenn.edu)
+- [Chicago Booth Review](http://review.chicagobooth.edu)
 
 ### Academic Journal
 - [Journal of Economic Perspectives](https://www.aeaweb.org/journals/jep)
