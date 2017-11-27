@@ -20,6 +20,6 @@ In addition to private contracting, there are a number of "official" products th
 
 ## Homework Allowance
 
-Each student is is allowed to have the score of one of his or her homework assignments not count toward the final grade. This is called a **homework allowance**.
+Each student is is allowed to have the score of one homework assignment not count toward the final grade. This is called a **homework allowance**.
 
 Homework allowances can be traded. You can buy and sell allowances with each other -- as well as derivates based on them -- using [J-points]({{ site.baseurl }}/assets/Lectures/Final_Grade_Calculation.pdf) as the currency. For details, see [Homework Allowance]({{ site.baseurl }}/assets/Homework_Allowance.pdf).
