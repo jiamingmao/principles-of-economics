@@ -16,14 +16,12 @@ order: 2
     - Elasticity ([slides]({{ site.baseurl }}/assets/Lectures/Elasticity.pdf))
     - Double Auction ([slides]({{ site.baseurl }}/assets/Lectures/Double_Auction.pdf))
     - `Game:` Competitive Markets [[link](https://www.moblab.com/games/continuous-market-game/)]
-    - Jensen, R. T. and N. H. Miller, "Giffen Behavior and Subsistence Consumption," _AER_. [[link](http://campuspress.yale.edu/dirkbergemann/files/2012/01/giffen-good.pdf)]
-        - Giffen Behavior ([slides]({{ site.baseurl }}/assets/Lectures/Giffen_Behavior.pdf))
+    - Jensen, R. T. and N. H. Miller, "Giffen Behavior and Subsistence Consumption," _AER_. [[link](http://campuspress.yale.edu/dirkbergemann/files/2012/01/giffen-good.pdf)] ([slides]({{ site.baseurl }}/assets/Lectures/Giffen_Behavior.pdf))
         - The Indiana Jones of Economics [[link](https://github.com/jiamingmao/principles-of-economics/blob/master/Readings/The%20Indiana%20Jones%20of%20Economics.pdf)]
 
 3. Welfare Analysis ([slides]({{ site.baseurl }}/assets/Lectures/Welfare_Analysis.pdf))
       - Consumer and Producer Surplus [[video](https://www.youtube.com/watch?v=kCKWV-94nsY)]
-      - Waldfogel, J., "The Deadweight Loss of Christmas," _AER_. [[link](http://www.jstor.org/stable/2117564?seq=1#page_scan_tab_contents)]
-          - Christmas and the Efficiency of Gift-Exchange ([slides]({{ site.baseurl }}/assets/Lectures/Christmas_and_the_Efficiency_of_Gift-Exchange.pdf))
+      - Waldfogel, J., "The Deadweight Loss of Christmas," _AER_. [[link](http://www.jstor.org/stable/2117564?seq=1#page_scan_tab_contents)] ([slides]({{ site.baseurl }}/assets/Lectures/Christmas_and_the_Efficiency_of_Gift-Exchange.pdf))
 
 4. Economic Analysis of Taxation ([slides]({{ site.baseurl }}/assets/Lectures/Taxation.pdf))
     - Corporate Taxation and Tax Avoidance ([slides]({{ site.baseurl }}/assets/Lectures/Corporate_Taxation_and_Tax_Avoidance.pdf))
@@ -42,3 +40,7 @@ order: 2
     - `Game:` Commons: Fishery [[link](https://www.moblab.com/games/commons-fishery-game/)]
     - Metcalf, G. E., "Market-Based Policy Options to Control U.S. Greenhouse Gas Emissions," _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.23.2.5)]
     - Newell et al., "Carbon Markets 15 Years after Kyoto: Lessons Learned, New Challenges," _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.27.1.123)]
+
+6. Measuring the National Economy ([slides]({{ site.baseurl }}/assets/Lectures/Measuring_the_National_Economy.pdf))
+    - Henderson et al., "Measuring Economic Growth from Outer Space," _AER_. [[link](https://www.aeaweb.org/articles?id=10.1257/aer.102.2.994)] ([slides]({{ site.baseurl }}/assets/Lectures/Measuring_Economic_Growth_from_Outer_Space.pdf))
+    - Jones, C. I. and P. J. Klenow, "Beyond GDP? Welfare across Countries and Time," _AER_. [[link](https://www.aeaweb.org/articles?id=10.1257/aer.20110236)] ([slides]({{ site.baseurl }}/assets/Lectures/Measuring_Well-being.pdf))
