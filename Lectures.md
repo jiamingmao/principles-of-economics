@@ -42,5 +42,8 @@ order: 2
     - Newell et al., "Carbon Markets 15 Years after Kyoto: Lessons Learned, New Challenges," _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.27.1.123)]
 
 6. Measuring the National Economy ([slides]({{ site.baseurl }}/assets/Lectures/Measuring_the_National_Economy.pdf))
+    - A Primer on GDP and the National Income and Product Accounts [[link](https://www.bea.gov/national/pdf/nipa_primer.pdf)]
+    - Landefeld et al., "Taking the Pulse of the Economy: Measuring GDP," _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.22.2.193)]
+    - The Trouble with GDP [[link](https://www.economist.com/news/briefing/21697845-gross-domestic-product-gdp-increasingly-poor-measure-prosperity-it-not-even)]
     - Henderson et al., "Measuring Economic Growth from Outer Space," _AER_. [[link](https://www.aeaweb.org/articles?id=10.1257/aer.102.2.994)] ([slides]({{ site.baseurl }}/assets/Lectures/Measuring_Economic_Growth_from_Outer_Space.pdf))
     - Jones, C. I. and P. J. Klenow, "Beyond GDP? Welfare across Countries and Time," _AER_. [[link](https://www.aeaweb.org/articles?id=10.1257/aer.20110236)] ([slides]({{ site.baseurl }}/assets/Lectures/Measuring_Well-being.pdf))
