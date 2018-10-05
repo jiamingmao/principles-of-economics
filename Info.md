@@ -11,18 +11,17 @@ D303 Economics Building<br>
 Email: <jmao@xmu.edu.cn>
 
 #### Assistant
-**Qinghui Gao**<br>
-Email: <810333045@qq.com>
+**Yuanyuan Cheng**<br>
+Email: <yuanyuan_cheng@qq.com>
 
-**Jingyu He**<br>
-Email: <631396640@qq.com>
+**Na Li**<br>
+Email: <1020950694@qq.com>
 
 ---
 
 ## Syllabus
-- The official syllabus ([pdf](https://l.xmu.edu.cn/course/view.php?id=921))
+- The official syllabus ([pdf]({{ site.baseurl }}/assets/syllabus.pdf))
 - All you need to know about this course ([slides](http://htmlpreview.github.io/?https://github.com/jiamingmao/principles-of-economics/blob/master/Course%20Info/courseinfo.html))
-- Grade calculation ([pdf]({{ site.baseurl }}/assets/Final_Grade_Calculation.pdf))
 
 ---
 
