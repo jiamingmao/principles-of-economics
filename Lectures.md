@@ -19,3 +19,7 @@ order: 2
     - `Game:` Competitive Markets [[link](https://www.moblab.com/games/continuous-market-game/)]
     - Jensen, R. T. and N. H. Miller, "Giffen Behavior and Subsistence Consumption," _AER_. [[link](http://campuspress.yale.edu/dirkbergemann/files/2012/01/giffen-good.pdf)] ([slides]({{ site.baseurl }}/assets/Lectures/Giffen_Behavior.pdf))
         - The Indiana Jones of Economics [[link](https://github.com/jiamingmao/principles-of-economics/blob/master/Readings/The%20Indiana%20Jones%20of%20Economics.pdf)]
+
+3. Welfare Analysis ([slides]({{ site.baseurl }}/assets/Lectures/Welfare_Analysis.pdf))
+  - Consumer and Producer Surplus [[video](https://www.youtube.com/watch?v=kCKWV-94nsY)]
+  - Waldfogel, J., "The Deadweight Loss of Christmas," _AER_. [[link](http://www.jstor.org/stable/2117564?seq=1#page_scan_tab_contents)] ([slides]({{ site.baseurl }}/assets/Lectures/Christmas_and_the_Efficiency_of_Gift-Exchange.pdf))
