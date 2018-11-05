@@ -32,4 +32,4 @@ order: 2
   - `Game:` Competitive Markets with Interventions [[link](https://www.moblab.com/games/continuous-market-game/)]
   - Mankiw et al., "Optimal Taxation in Theory and Practice," _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.23.4.147)]
   - Alesina et al., "Gender-Based Taxation and the Division of Family Chores," _AEJ: Economic Policy_. [[link](https://www.aeaweb.org/articles?id=10.1257/pol.3.2.1)]
-     - Why women should pay less tax [[link](https://www.ft.com/content/3fb9f856-ed10-11db-9520-000b5df10621)]
+      - Why women should pay less tax [[link](https://www.ft.com/content/3fb9f856-ed10-11db-9520-000b5df10621)]
