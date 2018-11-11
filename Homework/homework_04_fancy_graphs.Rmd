@@ -1,7 +1,6 @@
 ---
 title: "Homework 4"
 author: "Fancy Graphs using ggplot2"
-output: pdf_document
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,message=FALSE)
@@ -23,7 +22,7 @@ data <- data.frame(oil=oil,corn=corn,date=time(oil))
 ```
 
 ## Wall Street Journal Style
-```{r}
+```{r,out.width='60%'}
 ggplot(data) +
   geom_line(aes(x=date,y=corn,col="corn ($/mt)")) +
   geom_line(aes(x=date,y=oil,col="oil ($/ba)")) +
@@ -35,24 +34,12 @@ ggplot(data) +
 ```
 
 ## The Economist Style
-```{r}
+```{r,out.width='60%'}
 ggplot(data) +
-  geom_line(aes(x=date,y=corn,col="corn ($/mt)")) +
-  geom_line(aes(x=date,y=oil,col="oil ($/ba)")) +
+  geom_line(aes(x=date,y=corn,col="corn ($/mt)"),size=2) +
+  geom_line(aes(x=date,y=oil,col="oil ($/ba)"),size=2) +
   theme_economist(base_size = 12) + scale_colour_economist() +
   theme(legend.title = element_text(size=18)) +
-  xlab("") + ylab("") +
-  scale_color_manual(name="Commodity",
-                     values = c("corn ($/mt)"="steelblue","oil ($/ba)"="darkred"))
-```
-
-## Stata Style
-```{r}
-ggplot(data) +
-  geom_line(aes(x=date,y=corn,col="corn ($/mt)")) +
-  geom_line(aes(x=date,y=oil,col="oil ($/ba)")) +
-  theme_stata(base_size = 14) + scale_colour_stata() +
-  theme(legend.title = element_text(size=14)) +
   xlab("") + ylab("") +
   scale_color_manual(name="Commodity",
                      values = c("corn ($/mt)"="steelblue","oil ($/ba)"="darkred"))
