@@ -1,0 +1,103 @@
+---
+title: "The Simplest Introduction to Optimization EVER"
+author: "J. Mao"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Suppose we have a function: 
+
+$$y = 100 -20x + x^2$$
+How do we find $x^*$ that minimizes $y$?
+
+### 1. Define a Function
+
+Firts, let us define the function $y(x)$ in `R`. Here's how:
+
+```{r}
+y <- function(x) 100 - 20*x + x^2
+
+```
+
+That's it! We have created the function $y(x)$. Let's test it:
+
+```{r}
+y(5)
+```
+
+Is this correct? Yes:
+
+$$y(5) = 100 -20\times5  + 5^2=25$$
+
+Now let's plot this function:
+
+```{r}
+x = 0:20
+plot(x,y(x),type="l")
+```
+
+### 2. Finding the Minimum
+
+Now let's find the minimum point of $y(x)$. To do so, we use the function `optim`:
+
+```{r, warning=FALSE}
+x0 = 0 #the initial value of x that we want optim to start searching from.
+result <- optim(x0, y) #Optim will start from x0 and then search through many values of x to find the xstar that minimizes y
+xstar = result$par #the variable "result"" contains many values. "result$par" is what we want, which is the value of x that minimizes y(x). ("par" stands for "parameter")
+xstar
+```
+
+That's it! We have found the $x^*$ that minimizes $y(x)$. This $x^*$ is a **numerical solution**, since we have found it by using computer programs to search for the best value. If we calculate by hand, we will get the theoretical solution, or **analytical solution**. Note that in this case, the numerical solution is $x^*=9.9$, which is close to the analytical solution, which is $x^*=10$.
+
+### 3. Finding the Maximum
+
+`optim` is for finding _minimum_ values. How do we find the _maximum_ value of a function? 
+
+Let's define the following function:
+
+$$y = 10x - x^2$$
+```{r}
+y <- function(x) 20*x - x^2
+x = 0:20
+plot(x,y(x),type="l")
+```
+
+How do we find the maximum point of $y(x)$? Easy. We can still use `optim`, but let's define another function $z(x)=-y(x)$:
+
+```{r}
+z <- function(x) -y(x)
+```
+
+Then we can just use the `optim` to find the _minimum_ point of $z(x)$, which will be the same as finding the _maximum_ point of $y(x)$:
+
+```{r, warning=FALSE}
+x0 = 0 
+result <- optim(x0, z) 
+xstar = result$par 
+xstar
+```
+
+There we go! We have found the $x^*$ that maximizes $y(x)$!
+
+### 4. Constrained Optimization
+
+In many cases, function $y(x)$ is only defined on $x\in [a,b]$, i.e. $x$ has to be between $a$ and $b$. In this case, if we are searching for the $x^*$ that minimizes or maximizes $y(x)$, we will only search within the range $[a,b]$. This is called **constrained optimization**.
+
+For example, let 
+
+$$y(p) = p(1-p)$$, where $p\in [0,1]$
+
+To find the $p^*$ that minimizes $y(p)$, we again use `optim`, but this time, we add a lowerbound and an upperbound for $p$.
+
+```{r, warning=FALSE}
+y <- function(p) p*(1-p)
+z <- function(p) -y(p) #minimize z = maximize y
+result <- optim(0.5, z, lower=0, upper=1) #0.5 is initial value; lower and upper set lowerbound and upperbound 
+pstar = result$par 
+pstar
+```
