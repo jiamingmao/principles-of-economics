@@ -1,0 +1,65 @@
+---
+title: Homework 6
+author: Xiao Ming
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list = ls()) 
+```
+
+## Problem 5
+```{r}
+data <- read.csv('Demand_data.csv')
+p = data$p
+q = data$q
+```
+
+### 5.5
+see tutorial: "intro_regression.html"
+```{r}
+lm(log(q)~log(p))
+```
+
+---
+
+## Problem 6
+
+### 6.3
+```{r}
+tau = seq(0,1,0.01) #generate a sequence that goes from 0 to 1 at increment 0.01
+Wb = 10*tau #you need to change this line!
+Wf = 10 - 10*tau #you need to change this line!
+plot(tau,Wb,type="l",ylim=c(0,10),col="steelblue",xlab="Tax Rate",ylab="Wage") #you can change color, ylim, etc.
+lines(tau,Wf,col="darkorange")
+legend("top", legend=c('before tax','after tax'),lty=1, #you can change the position of the legend
+       col=c("steelblue","darkorange"),bty="n") 
+```
+
+### 6.6
+You can calculate the optimal rate by hand, but if you wish to do it in R, see tutorial: "intro_optimization.html"
+
+### 6.9
+```{r}
+year = 1977:1986
+taxdata = read.csv('FederalTaxReceipts19771986.csv')
+taxrev = taxdata[,2]
+GDPdata = read.csv('GDPDeflator19771986.csv') 
+deflator = GDPdata[,2]
+realtaxrev = taxrev/deflator
+plot(year,realtaxrev,type="l",ylab="Tax Revenue (Billions of 2010 Dollars)")
+```
+
+### 6.9 (Fancy Graph)
+```{r,message=FALSE}
+#note: in order to run the following codes, you need to install the following packages first:
+# install.packages("ggplot2")
+# install.packages("ggthemes")
+require(ggplot2)
+require(ggthemes)
+data <- data.frame(t=year,y=realtaxrev)
+ggplot(data) +
+  geom_line(aes(x=t,y=y),col="steelblue",size=2) +
+  theme_economist(base_size = 18) + scale_colour_economist() +
+  theme(axis.title=element_text(size=18)) +
+  xlab("") + ylab("Billions of 2010 Dollars") + ggtitle("Tax Revenue")
+```
