@@ -42,3 +42,7 @@ order: 2
     - `Game:` Commons: Fishery [[link](https://www.moblab.com/games/commons-fishery-game/)]
     - Metcalf, G. E., "Market-Based Policy Options to Control U.S. Greenhouse Gas Emissions," _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.23.2.5)]
     - Newell et al., "Carbon Markets 15 Years after Kyoto: Lessons Learned, New Challenges," _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.27.1.123)]
+
+6. Information Economics ([slides]({{ site.baseurl }}/assets/Lectures/Information_Economics.pdf))
+    - Economics of Love ([slides]({{ site.baseurl }}/assets/Lectures/Economics_of_Love.pdf))
+    - Paul Oyer: What Online Dating Can Teach About Economics [[link](https://www.gsb.stanford.edu/insights/paul-oyer-what-online-dating-can-teach-about-economics)] [[video](https://www.youtube.com/watch?v=LmhILSGA2bA)]
