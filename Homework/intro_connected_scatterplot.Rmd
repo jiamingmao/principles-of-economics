@@ -82,9 +82,7 @@ require(ggplot2)
 require(ggthemes)
 data <- data.frame(t=t,x=x,y=y)
 ggplot(data,aes(x=x,y=y,label=t)) +
-  #geom_line(col="steelblue",size=1) +
   geom_point(col="orange",size=2) + 
-  #geom_path(col="steelblue") + 
   geom_text(fontface="bold",nudge_x=.4) +
   geom_segment(color="steelblue", 
                aes(xend=c(tail(x, n=-1), NA), yend=c(tail(y, n=-1), NA)),

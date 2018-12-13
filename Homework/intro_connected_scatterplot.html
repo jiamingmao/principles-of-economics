@@ -170,9 +170,7 @@ arrows(x[s], y[s], x[s+1], y[s+1], col=&quot;steelblue&quot;)</code></pre>
 require(ggthemes)
 data &lt;- data.frame(t=t,x=x,y=y)
 ggplot(data,aes(x=x,y=y,label=t)) +
-  #geom_line(col=&quot;steelblue&quot;,size=1) +
   geom_point(col=&quot;orange&quot;,size=2) + 
-  #geom_path(col=&quot;steelblue&quot;) + 
   geom_text(fontface=&quot;bold&quot;,nudge_x=.4) +
   geom_segment(color=&quot;steelblue&quot;, 
                aes(xend=c(tail(x, n=-1), NA), yend=c(tail(y, n=-1), NA)),
