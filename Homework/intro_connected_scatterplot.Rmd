@@ -1,0 +1,91 @@
+---
+title: "An Introduction to Connected Scatter Plots"
+author: "J. Mao \n \n [https://jiamingmao.github.io/principles-of-economics](https://jiamingmao.github.io/principles-of-economics)"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+set.seed(123)
+```
+
+Let's generate some data:
+
+```{r}
+t = seq(-10,10,.2)
+x = 16*(sin(t))^3
+y = 13*cos(t) - 5*cos(2*t) - 2*cos(3*t) - cos(4*t)
+```
+
+First, let's plot x and y using a standard scatter plot. Here's what it looks like:
+
+```{r,fig.asp=1,out.width="60%"}
+plot(x,y)
+```
+
+To produce a *connected* scatter plot, there are a couple ways. First:
+
+```{r,fig.asp=1,out.width="60%"}
+plot(x,y,type="o")
+```
+
+Now, you can change the point symbol "o" or the color of the lines. Here's how to do it:
+
+```{r,fig.asp=1,out.width="60%"}
+# pch controls the plot symbol. 
+# See here for a complete list of symbols: http://www.endmemo.com/program/R/pchsymbols.php
+plot(x,y,type="o",pch=17,col="pink") 
+```
+
+But what if you want different colors for points and lines? You can do this:
+
+```{r,fig.asp=1,out.width="60%"}
+plot(x,y,pch=17,col="purple")
+lines(x,y,lwd=2,col="pink") # lwd controls line width
+```
+
+or this: (reversing the order)
+
+```{r,fig.asp=1,out.width="60%"}
+plot(x,y,lwd=2,type="l",col="pink")
+points(x,y,pch=17,col="purple")
+```
+
+Now let's try some new data:
+
+```{r}
+t = 2001:2010
+x = 1:10
+y = runif(10)
+```
+
+Let's plot x and y using a connected scatter plot, but using arrows to go from one point to the next:
+
+```{r,fig.asp=.8,out.width="75%"}
+plot(x,y,pch=16,col="orange")
+s = 1:(length(x)-1)
+arrows(x[s], y[s], x[s+1], y[s+1], col="steelblue")
+```
+
+We can also add text labels on the scatter points. Let's label each point's t value:
+
+```{r,fig.asp=.8,out.width="75%"}
+plot(x,y,pch=16,col="orange")
+text(x,y,labels=t,pos=4) #pos=1,2,3,4 adjusts position of text label
+s = 1:(length(x)-1)
+arrows(x[s], y[s], x[s+1], y[s+1], col="steelblue")
+```
+
+Finally, let's try some fancy ggplot themes:
+
+```{r,message=FALSE,warning=FALSE}
+require(ggplot2)
+require(ggthemes)
+data <- data.frame(t=t,x=x,y=y)
+ggplot(data,aes(x=x,y=y,label=t)) +
+  geom_point(col="orange",size=2) + 
+  geom_text(fontface="bold",nudge_x=.4) +
+  geom_segment(color="steelblue", 
+               aes(xend=c(tail(x, n=-1), NA), yend=c(tail(y, n=-1), NA)),
+               arrow=arrow()) +
+  theme_wsj() + scale_colour_wsj()
+```
