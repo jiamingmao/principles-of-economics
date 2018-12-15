@@ -1,6 +1,6 @@
 ---
 title: "The Simplest Introduction to Regression EVER"
-author: "J. Mao"
+author: "J. Mao \n \n [https://jiamingmao.github.io/principles-of-economics](https://jiamingmao.github.io/principles-of-economics)"
 output:
   html_document: default
   pdf_document: default
