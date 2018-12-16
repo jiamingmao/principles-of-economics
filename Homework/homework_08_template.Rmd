@@ -18,6 +18,7 @@ plot(u,xlab="",ylab="Unemployment Rate")
 ### 5
 ```{r}
 # Let's produce a basic connected scatter plot (no arrows, no labels)
+# For more advanced/fancy plots, see tutorial: "intro_connected_scatterplot.html"
 v = runif(length(u)) # here we randomly generate some v. You need to change this.
 plot(u,v,type="o",xy.labels=FALSE,ylab="v",xlab="u") # xy.labels=FALSE gets rid of text labels. 
 ```
