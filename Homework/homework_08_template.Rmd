@@ -1,0 +1,24 @@
+---
+title: "Homework 8"
+author: "Xiao Ming"
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list = ls()) 
+```
+
+### 1
+```{r}
+# suppose we use quarterly data
+data = read.csv('UNRATE.csv') 
+u = ts(data[,2],start=c(2001,1),freq=4) #you need to adjust freq. For example, if you have monthly data, then freq=12
+plot(u,xlab="",ylab="Unemployment Rate")
+```
+
+### 5
+```{r}
+# Let's produce a basic connected scatter plot (no arrows, no labels)
+# For more advanced/fancy plots, see tutorial: "intro_connected_scatterplot.html"
+v = runif(length(u)) # here we randomly generate some v. You need to change this.
+plot(u,v,type="o",xy.labels=FALSE,ylab="v",xlab="u") # xy.labels=FALSE gets rid of text labels. 
+```
