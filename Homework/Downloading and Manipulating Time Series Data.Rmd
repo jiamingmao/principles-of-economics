@@ -1,0 +1,118 @@
+---
+title: "Downloading and Manipulating Time Series Data"
+author: "Jiaming Mao"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Download data from FRED
+
+To download data from FRED, we use the `quantmod` package. 
+
+```{r, message=FALSE, warning=FALSE}
+# you need to install the package first:
+# install.packages("quantmod")
+library(quantmod)
+```
+
+As an example, let's download the following data from FRED:
+
+1. Quarterly GDP for France from 2000.Q1 to 2002.Q4: https://fred.stlouisfed.org/series/CPMNACSCAB1GQFR
+2. Quarterly GDP for Germany from 2000.Q1 to 2002.Q4: https://fred.stlouisfed.org/series/CPMNACSCAB1GQDE
+
+Note that the names of the FRED series are respectively `CPMNACSCAB1GQFR` for France and `CPMNACSCAB1GQDE` for Germany. To download these two data series, we use the `getSymbols` function in `quantmod`:
+
+```{r, message=FALSE, warning=FALSE}
+france = getSymbols('CPMNACSCAB1GQFR',src='FRED',auto.assign=FALSE)
+germany = getSymbols('CPMNACSCAB1GQDE',src='FRED',auto.assign=FALSE)
+
+#Note: we set "message=FALSE" and "warning=FALSE" in the chunk options. This prevents the document from printing any unnecessary messages and warnings. For more on chunk options, see: http://rmarkdown.rstudio.com/lesson-3.html
+```
+
+The downloaded data are in `xts` format. They contain French GDP from 1975.Q1 to current and German GDP from 1991.Q1 to current (in Millions of Euros). We need to select the data from 2000.Q1 to 2002.Q4. To do this, for data in `xts` format, we can simply write:
+
+```{r, message=FALSE, warning=FALSE}
+t = "2000-01-01/2002-10-01"
+france = france[t]
+germany = germany[t]
+
+#Note: in FRED, the date for Q1 is 01-Jan. The date for Q2 is 01-Apr. The date for Q3 is 01-Jul. The date for Q4 is 01-Oct. That's why to get data from 2000.Q1 to 2002.Q4, we set t = "2000-01-01/2002-10-01". Equivalently, since we are getting data from the beginning of 2000 to the end of 2002, we can also set t = "2000-01-01/2002-12-31"
+```
+
+# Plotting data
+
+Now let's plot the two data series together:
+
+```{r, message=FALSE, warning=FALSE}
+data = cbind(france,germany)
+colnames(data) = c("France","Germany")
+plot(data,legend.loc='topleft',auto.legend=TRUE,main="GDP (in Millions of Euros)") 
+#Note 1: for data in xts format, there is no need to use a combination of plot(data1) and lines(data2) in order to plot data1 and data2 together. Instead, we can combine them first using data = cbind(data1,data2). This creates a matrix with data1 as the first column and data2 as the 2nd column. The command plot(data) then plots both data1 and data2 on the same graph and automatically assigns different colors to them. If you don't like the automatic colors, you can set your own colors:
+
+plot(data,legend.loc='topleft',auto.legend=TRUE,main="GDP (in Millions of Euros)",col=c('brown','royalblue'))
+
+#Note 2: for data in xts format, we can set auto.legend=TRUE in the plot function to automatically include a legend into the plot. However, we will not be able to set the texts for the legend. Instead, the legend texts will be taken directly from the column names of the data. Therefore, it is important to set the names of the data columns to be the legend texts that we want. In this case, we want our legend to be "France" for French GDP and "Germany" for German GDP. Therefore, we set colnames(data) = c("France","Germany"). Finally, legend.loc='topleft' sets the location of the legend to be topleft of the graph. These settings are all unique for data in xts format. 
+```
+
+# Construct index
+
+Let's construct a GDP index for Germany. Let the index = 1 at 2000.Q1. To do this, we divide German GDP in each period by its 2000.Q1 value. How to extract the 2000.Q1 value from our data? For data in `xts` format, we need to use the `coredata` function. `coredata(x)` extracts the data (numerical values) from time series x[^1]. Therefore, we can write:
+
+```{r, message=FALSE, warning=FALSE}
+germany = germany/coredata(germany)[1] 
+plot(germany,main="German GDP Index (2000.Q1 = 1)")
+```
+
+[^1]: Note: for x in `xts` format, `x[1]` will not give you the value of x in the 1st period. Instead, it returns a time series that contains only the 1st period (i.e., `x[1]` has two columns, the first being the time of the 1st period, the second being its numerical value). To extract the numerical value of the 1st period only, we need to write `coredata(x)[1]`. 
+
+# Convert frequency
+
+Now suppose we want to convert the quarterly data into annual data for France. To do this, for data x in `xts` format, we can use the `apply.yearly` function with the following syntax: `apply.yearly(x,mean)`, which applies the function `mean` to observations in x by year, i.e. averages observations in each year. This will help convert quarterly data into annual data.
+
+```{r, message=FALSE, warning=FALSE}
+france_annual = apply.yearly(france,mean) 
+france_annual
+```
+
+# Calculate Growth Rates
+
+To calculate growth rates, we need to use the `lag` function. `lag(x,k)` produces a times series that is the same as x except that every observation lags behind the original x by k periods. For example:
+
+```{r, message=FALSE, warning=FALSE}
+x = france_annual
+y = lag(x) #when you don't specify k, the default is k=1
+cbind(x,y)
+```
+
+Now let's calculate the annual nominal GDP growth rates for France[^2]:
+
+```{r, message=FALSE, warning=FALSE}
+g_annual = (france_annual/lag(france_annual)-1)*100
+g_annual
+```
+
+[^2]: In practice, the GDP growth rates that we are interested in should based on *real* GDP, not nominal GDP. 
+
+Make a bar plot of the growth rates:
+
+```{r, message=FALSE, warning=FALSE}
+g_annual = g_annual[-1,] #get rid of the first row, which is NA
+barplot(g_annual,col="thistle",main="French Annual Nominal GDP Growth Rate")
+```
+
+Similarly, for quarterly GDP, we can calcualte the year-on-year growth rates[^2]:
+
+```{r, message=FALSE, warning=FALSE}
+#year-on-year rate:
+g_yoy = (france/lag(france,k=4)-1)*100 #lag 4 quarters
+g_yoy
+
+#Since g_yoy is only available from 2001.Q1, we plot the series from 2001.Q1 to 2002.Q4
+t = "2001-01-01/2002-10-01"
+plot(g_yoy[t],legend.loc='topright',auto.legend=TRUE,main='French Nominal Quarterly GDP YoY Growth Rate')
+```
