@@ -1,0 +1,35 @@
+---
+title: "Homework 10"
+author: Xiao Ming
+---
+### Suggested Solutions
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list = ls()) 
+library(quantmod) # only need to do this once
+```
+
+# Part I
+1. (a)
+2. (b)
+
+# Part II
+## Problem 1
+### 1.1
+CPI = 100, 110, 120
+
+# Part III
+## Problem 1
+### 1.1
+```{r, message=FALSE, warning=FALSE} 
+
+# note: plz use "message=FALSE, warning=FALSE" in the above ```{r, ...}
+# these are called "chunk options" and can be used to get rid of warnings and messages in your output
+
+billion = 1e9
+t = "1970-01-01/2015-01-01"
+china = getSymbols('MKTGDPCNA646NWDB',src='FRED',auto.assign=FALSE)
+china = china[t]/billion
+plot(china,main="Nominal Chinese GDP (in Billions of Dollars)")
+```
+
