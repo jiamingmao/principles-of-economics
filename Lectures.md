@@ -55,3 +55,6 @@ order: 2
     - Jones, C. I. and P. J. Klenow, "Beyond GDP? Welfare across Countries and Time," _AER_. [[link](https://www.aeaweb.org/articles?id=10.1257/aer.20110236)] ([slides]({{ site.baseurl }}/assets/Lectures/Measuring_Well-being.pdf))
     - How Do We Measure Inflation? [[link](https://www.chicagofed.org/publications/chicago-fed-letter/2015/347)]
     - Why Do Measures of Inflation Disagree? [[link](https://www.frbsf.org/economic-research/files/el2013-37.pdf)]
+
+8. Savings and Investment ([slides]({{ site.baseurl }}/assets/Lectures/Savings_and_Investment.pdf))
+    - Obstfeld, M. and K. Rogof, "Global Imbalances and the Financial Crisis: Products of Common Causes," _FRBSF Proceedings_. [[link](https://www.frbsf.org/economic-research/files/Obstfeld_Rogoff.pdf)]
