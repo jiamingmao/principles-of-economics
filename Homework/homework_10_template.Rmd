@@ -1,0 +1,90 @@
+---
+title: "Homework 10"
+author: Xiao Ming
+---
+### Suggested Solutions
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list = ls()) 
+library(quantmod) # only need to do this once
+```
+
+# Part III
+## Problem 1
+### 1.1
+```{r, message=FALSE, warning=FALSE} 
+
+# note: plz use "message=FALSE, warning=FALSE" in the above ```{r, ...}
+# these are called "chunk options" and can be used to get rid of warnings and messages in your output
+
+billion = 1e9
+t = "1970-01-01/2015-01-01"
+
+china = getSymbols('MKTGDPCNA646NWDB',src='FRED',auto.assign=FALSE)
+china = china[t]/billion
+
+plot(china,main="Nominal Chinese GDP (in Billions of Dollars)")
+```
+
+## Problem 5
+### 5.1
+```{r, message=FALSE, warning=FALSE}
+t = "2003-01-01/2015-12-31"
+
+rc = getSymbols('PCECC96',src='FRED',auto.assign=FALSE)
+rc = rc[t]
+rc = rc/coredata(rc)[1]
+
+plot(rc,main="Real Consumption Index (2003.Q1 = 1)")
+```
+
+## Part IV
+## Problem 1
+### 1.2
+```{r, message=FALSE, warning=FALSE}
+t = "1950-01-01/2015-10-01"
+
+gdpQ = getSymbols('GDP',src='FRED',auto.assign=FALSE)
+gdpQ = gdpQ[t]
+
+# convert quarterly data into annual data
+gdp = apply.yearly(gdpQ,mean) 
+
+plot(gdp,main="U.S. Nominal GDP (in Billions of Dollars)")
+```
+
+### 1.3
+```{r, message=FALSE, warning=FALSE}
+x <- xts(rnorm(10),as.Date(1:10,origin="2000-01-01")) # here we randomly generate some x. You need to replace x with the appropriate variable for computing gdp growth rates here. 
+gx = (x/lag(x)-1)*100 
+gx = gx[-1,] #get rid of the first row, which is NA
+barplot(gx,main="x Growth Rate")
+```
+
+## Problem 2
+### 2.1
+```{r, message=FALSE, warning=FALSE}
+t = "2000-01-01/2014-12-01"
+
+china = getSymbols('CHNCPIALLMINMEI',src='FRED',auto.assign=FALSE)
+china = china[t]
+
+# calculate yoy inflation rate
+pi.china = (china/lag(china,12)-1)*100
+pi.china = pi.china[-c(1:12),] #get rid of the first 12 rows, which are NA
+
+plot(pi.china,main="Chinese Inflation")
+```
+
+### 2.2
+```{r, message=FALSE, warning=FALSE}
+# Suppose we want to know how many months Chinese inflation is above 2 percent
+sum(pi.china > 2)
+```
+
+## Problem 3
+### 3.8
+```{r, message=FALSE, warning=FALSE}
+# Suppose we want to average Chinese monthly yoy (year-on-year) inflation in 2010:
+mean(pi.china["2010"])
+```
