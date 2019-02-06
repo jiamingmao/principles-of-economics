@@ -1,4 +1,4 @@
-# Git Basic
+# Git Basics
 #### by [Gao Qinghui](https://github.com/gaoqinghui/)
 The recommendation for this course is to fork the repo, don't make any changes unless you're familar with git, and regularly synchronize the repo to update the course material.
 
