@@ -12,7 +12,7 @@ order: 4
 
 ## Git and Github
 
-The materials for this course are hosted on `Github` at [github.com/jiamingmao/principles-of-economics](http://www.github.com/jiamingmao/principles-of-economics). Since the course materials are continually updated throughout the semester, it is recommended that you `fork` this repo, and regularly sync it with the original. You can do this using `git` on the command line or using a GUI such as [Github Desktop](https://desktop.github.com/).
+The materials for this course are hosted on `Github` at [github.com/jiamingmao/principles-of-economics](http://www.github.com/jiamingmao/principles-of-economics). Since the course materials are continually updated throughout the semester, it is recommended that you clone this repo, and pull regularly to get updates. You can do this using `git` on the command line or using a GUI such as [Github Desktop](https://desktop.github.com/).
 
 [This tutorial](https://github.com/jiamingmao/principles-of-economics/blob/master/Materials/Git%20Basics.md) walks you through the steps to do so. If you want to learn more about `git` and `Github`, here are some places to start:
 
@@ -29,7 +29,6 @@ The materials for this course are hosted on `Github` at [github.com/jiamingmao/p
 `R` is a programming language for statistical computing. Throughout the semester, we will be using `R` to conduct basic data analysis to help us apply and better understand the principles and theories we learn in class.
 
 Here are some resources to help you start learning `R`:
-- Code School: [Try R](http://tryr.codeschool.com)
 - R Core Team, [An Introduction to R](https://cran.r-project.org/doc/manuals/R-intro.html)
 - Michonneau, F., [The R Class](http://r-bio.github.io/)
 - Burns, P., [The R Inferno](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf)
@@ -56,5 +55,5 @@ There are many editors you can use to write in `markdown`. For example, you can 
 
 Or you can use `RStudio`. `RStudio` allows you to write in `R markdown` -- a variant of the `markdown` language that allows you to include `R` codes and automatically generate their output. See:
 - [The official R Markdown documentation](http://rmarkdown.rstudio.com/)
-- [Test drive R Markdown](http://stat545.com/block007_first-use-rmarkdown.html)
+- Bryan, J., [Test drive R Markdown](http://stat545.com/block007_first-use-rmarkdown.html)
 - Shalizi, C., [Using R Markdown for Class Reports](http://www.stat.cmu.edu/~cshalizi/rmarkdown/)
