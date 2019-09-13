@@ -18,7 +18,7 @@ Email: <shitie@stu.xmu.edu.cn>
 
 ## Syllabus
 - Official syllabus ([pdf]({{ site.baseurl }}/assets/syllabus.pdf))
-- All you need to know about this course ([slides](http://htmlpreview.github.io/?https://github.com/jiamingmao/principles-of-economics/blob/master/Materials/Course%20Info/Course_Info.html))
+- All you need to know about this course ([slides](https://raw.githack.com/jiamingmao/principles-of-economics/master/Materials/Course%20Info/Course_Info.html))
 
 ---
 
