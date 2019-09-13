@@ -36,9 +36,7 @@ Communication
 
 Textbook
 ========================================================
-```{r, out.width = "400px", echo=FALSE}
-knitr::include_graphics("mankiw8e.jpeg")
-```
+<img src="mankiw8e.jpeg" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" width="400px" />
 <p></p>
 Mankiw, G., [Principles of Economics](https://www.amazon.com/Principles-Economics-Mankiws/dp/1305585127), 8e
 
