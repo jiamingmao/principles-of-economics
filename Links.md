@@ -17,7 +17,7 @@ order: 5
 ---
 
 ## Related Course
-- [Principles of Economics](http://online.stanford.edu/course/principles-economics-summer-2017) (John Taylor, Stanford)
+- [Principles of Economics](https://lagunita.stanford.edu/courses/course-v1:HumanitiesSciences+Econ1V+Summer2019/about) (John Taylor, Stanford)
 - [Principles of Microeconomics](https://ocw.mit.edu/courses/economics/14-01sc-principles-of-microeconomics-fall-2011/index.htm) (Jonathan Gruber, MIT)
 - [Principles of Macroeconomics](https://ocw.mit.edu/courses/economics/14-02-principles-of-macroeconomics-spring-2014/) (Francesco Giavazzi, MIT)
 
@@ -30,7 +30,6 @@ order: 5
 - [Financial Times](https://www.ft.com) ([FT China](http://www.ftchinese.com/))
 - [Bloomberg News](https://www.bloomberg.com/)
 - [The Economist](https://www.economist.com)
-- [Caixin](http://www.caixin.com/?HOLDZH)
 
 ### Economic and Policy Analysis
 - [Project Syndicate](https://www.project-syndicate.org/section/economics)

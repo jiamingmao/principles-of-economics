@@ -11,17 +11,14 @@ D303 Economics Building<br>
 Email: <jmao@xmu.edu.cn>
 
 #### Assistant
-**Yuanyuan Cheng**<br>
-Email: <yuanyuan_cheng@qq.com>
-
-**Na Li**<br>
-Email: <1020950694@qq.com>
+**Tie Shi**<br>
+Email: <shitie@stu.xmu.edu.cn>
 
 ---
 
 ## Syllabus
-- The official syllabus ([pdf]({{ site.baseurl }}/assets/syllabus.pdf))
-- All you need to know about this course ([slides](http://htmlpreview.github.io/?https://github.com/jiamingmao/principles-of-economics/blob/master/Course%20Info/courseinfo.html))
+- Official syllabus ([pdf]({{ site.baseurl }}/assets/syllabus.pdf))
+- All you need to know about this course ([slides](http://htmlpreview.github.io/?https://github.com/jiamingmao/principles-of-economics/blob/master/Materials/Course%20Info/Course_Info.html))
 
 ---
 
