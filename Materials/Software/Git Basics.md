@@ -79,8 +79,6 @@ Run your GitHub Desktop, click the **"plus sign"** botton in the upper-left-hand
 
 https://github.com/jiamingmao/principles-of-economics.git
 
-https://github.com/gaoqinghui/POE-TA-Sessions.git
-
 3. Choose the directory you wish to clone the repository into, click **clone**, and be patient.
 
 4. Go to the directory and enjoy it.
