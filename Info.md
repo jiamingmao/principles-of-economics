@@ -10,13 +10,13 @@ order: 1
 D303 Economics Building<br>
 Email: <jmao@xmu.edu.cn>
 
-**JZhengyang Bao**<br>
+**Zhengyang Bao**<br>
 D205 Economics Building<br>
 Email: <zhengyangbao@gmail.com>
 
 #### Assistant
 **Zichao Li**<br>
-Email: <>
+Email: <lzc563236@gmail.com>
 
 ---
 
