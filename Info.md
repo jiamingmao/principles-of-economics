@@ -11,7 +11,7 @@ D303 Economics Building<br>
 Email: <jmao@xmu.edu.cn>
 
 **Zhengyang Bao**<br>
-D205 Economics Building<br>
+D215 Economics Building<br>
 Email: <zhengyangbao@gmail.com>
 
 #### Assistant
@@ -22,7 +22,7 @@ Email: <lzc563236@gmail.com>
 
 ## Syllabus
 - Official syllabus ([pdf]({{ site.baseurl }}/assets/syllabus.pdf))
-- All you need to know about this course ([slides](https://raw.githack.com/jiamingmao/principles-of-economics/master/Materials/Course%20Info/Course_Info.html))
+- All you need to know about this course ([slides](https://raw.githack.com/jiamingmao/principles-of-economics/master/Course%20Info/Course_Info.html))
 
 ---
 
