@@ -132,6 +132,10 @@ Midterm Exam | 30%
 Final Exam | 30%
 Homework | 40%
 
+<br>
+
+- For details, see [final grade calculation](https://github.com/jiamingmao/principles-of-economics/blob/master/Course%20Info/Final_Grade_Calculation.pdf). 
+
 ---
 
 # Homework
