@@ -44,6 +44,3 @@ exclude:
 
 # Theme
 theme: "ed."
-
-plugins:
-  - jekyll-seo-tag

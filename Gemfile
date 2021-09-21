@@ -2,5 +2,6 @@ source "https://rubygems.org"
 gemspec
 
 gem "html-proofer"
+gem 'coveralls', require: false
 
-gem 'jekyll-seo-tag'
+gem "kramdown-parser-gfm"

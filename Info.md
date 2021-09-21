@@ -34,4 +34,4 @@ In homework, we will use the statistical computing language `R` to conduct some 
 
 ## Homework
 
-We will use [Moodle](https://l.xmu.edu.cn/course/view.php?id=921) for course-related announcements and homework. Homework assignments should be prepared using the `markdown` language and rendered to either `html` or `pdf`. For assignments that involve data analysis, you should write your homework in `R markdown`, which allows you to include `R` codes and automatically generate their output.
+We will be using [SPOC](https://l.xmu.edu.cn/) for course-related announcements and homework. Homework assignments should be prepared using `markdown` or `LaTeX` and rendered to either `html` or `pdf`. For assignments that involve data analysis, you should write your homework in `R markdown`, which allows you to include `R` codes and automatically generate their output.
