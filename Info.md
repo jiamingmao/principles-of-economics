@@ -22,7 +22,7 @@ Email: <lzc563236@gmail.com>
 
 ## Syllabus
 - Official syllabus ([pdf]({{ site.baseurl }}/assets/syllabus.pdf))
-- All you need to know about this course ([slides](https://raw.githack.com/jiamingmao/principles-of-economics/master/Course%20Info/Course-Info.html))
+- All you need to know about this course ([slides](https://raw.githack.com/jiamingmao/principles-of-economics/master/Course%20Info/Course-Info.html#1))
 
 ---
 
