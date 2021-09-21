@@ -13,7 +13,8 @@ order: 5
 ## Recommended Reading
 - [The Economy](http://www.core-econ.org/the-economy/): an interactive digital textbook produced by the [CORE project](http://www.core-econ.org).
 - Thaler, R. H. and C. R. Sunstein, [Nudge](https://www.amazon.com/Nudge-Final-Richard-H-Thaler/dp/014313700X/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1632249631&sr=1-1), Penguin Books, 2021.
-- Heilbroner, R. L., [The Worldly Philosophers: The Lives, Times, and Ideas of the Great Economic Thinkers](https://www.amazon.com/Worldly-Philosophers-Economic-Thinkers-Seventh/dp/068486214X/ref=sr_1_1?s=books&ie=UTF8&qid=1505401619&sr=1-1&keywords=The+Worldly+Philosophers), 7th Revised edition, Touchstone, 1999.
+- Heilbroner, R. L., [The Worldly Philosophers: The Lives, Times, and Ideas of the Great Economic Thinkers](https://www.amazon.com/Worldly-Philosophers-Economic-Thinkers-Seventh/dp/068486214X/ref=sr_1_1?s=books&ie=UTF8&qid=1505401619&sr=1-1&keywords=The+Worldly+Philosophers), 7th edition, Touchstone, 1999.
+- Naughton, B. J., [The Chinese Economy: Adaptation and Growth](https://www.amazon.com/Chinese-Economy-Adaptation-Growth-Press/dp/0262534797), 2nd edition, The MIT Press, 2018.
 
 ---
 
