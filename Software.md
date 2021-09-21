@@ -61,7 +61,7 @@ Or you can use `RStudio`. `RStudio` allows you to write in `R markdown` -- a var
 
 `LaTeX` is a markup language for writing technical and scientific documents and is widely used by the scientific community. Using `LaTeX`, you can easily input mathematics, create tables, graphs, and bibliographies, and make professional-looking presentations. 
 
-If you are new to `LaTeX`, I recommend you start with the WYSIWYM (*what you see is what you mean*) editor [Lyx](https://www.lyx.org/) or use the online collaborative editor [overleaf](https://www.overleaf.com/).
+If you are new to `LaTeX`, I recommend you start with the WYSIWYM (*what you see is what you mean*) editor [lyx](https://www.lyx.org/) or use the online collaborative editor [overleaf](https://www.overleaf.com/).
 
 - [Learn `LaTeX` in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
 
