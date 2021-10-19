@@ -1,0 +1,84 @@
+---
+title: Homework 5
+author: Xiao Ming
+output:
+  html_document: default
+  pdf_document: default
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list = ls()) 
+```
+
+## Problem 2
+
+### 2.1
+
+```{r}
+p1 = 0:100
+p2 = 50
+I = 100
+q1 = 1000 - 10*p1 + 5*p2 + 2*I
+plot(p1,q1,type="l",col="brown",main="My Title")
+```
+
+### 2.4
+
+```{r}
+p2 = 50
+I = 100
+p1 = 0:(1000 + 5*p2 + 2*I)/10
+q1 = 1000 - 10*p1 + 5*p2 + 2*I
+plot(q1,p1,type="l",col="brown",main="Demand Curve")
+p2 = 10
+I = 100
+p1 = 0:(1000 + 5*p2 + 2*I)/10
+q1 = 1000 - 10*p1 + 5*p2 + 2*I
+lines(q1,p1,col="blue")
+legend("topright", legend=c('p2=50,I=100','p2=10,I=100'),lty=1,
+       col=c("brown","blue")) 
+```
+
+---
+
+## Problem 3
+
+### 3.1, 3.2
+
+```{r}
+data <- read.csv('CEdiary_201501.csv')
+data <- data[data$FINCBEFX>0 & data$FOODTOT>0,]
+income <- data$FINCBEFX
+food <- data$FOODTOT
+plot(income,food,col="blue",ylab="food expenditure")
+abline(lm(food~income),col="red")
+```
+
+---
+
+## Problem 4
+
+### 4.1, 4.2
+
+```{r}
+oildata <- read.csv('MCOILWTICO.csv')
+corndata <- read.csv('PMAIZMTUSDM.csv')
+oil <- ts(oildata[,2],start=c(1986,1),freq=12)
+corn <- ts(corndata[,2],start=c(1986,1),freq=12)
+plot(oil,xlab="",ylab="",col="red",ylim=c(0,350))
+lines(corn,col="blue",ylim=c(0,350))
+legend("topleft", legend=c('corn ($/mt)',' oil ($/ba)'),lty=1,col=c("blue","red")) 
+```
+
+### 4.3
+
+```{r}
+plot(corn,oil,col="blue")
+abline(lm(oil~corn),col="red")
+```
+
+### 4.4
+
+```{r}
+cor(corn,oil)
+```

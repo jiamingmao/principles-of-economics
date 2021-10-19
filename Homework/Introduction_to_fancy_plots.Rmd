@@ -1,0 +1,45 @@
+---
+title: "How to Make Fancy Plots"
+author: "with ggplot2"
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,message=FALSE)
+rm(list = ls()) 
+```
+
+```{r}
+#note: in order to run the following codes, you need to install the following packages first:
+# install.packages("ggplot2")
+# install.packages("ggthemes")
+require(ggplot2)
+require(ggthemes)
+oildata <- read.csv('MCOILWTICO.csv')
+corndata <- read.csv('PMAIZMTUSDM.csv')
+oil <- ts(oildata[,2],start=c(1986,1),freq=12)
+corn <- ts(corndata[,2],start=c(1986,1),freq=12)
+data <- data.frame(oil=oil,corn=corn,date=time(oil))
+```
+
+## Wall Street Journal Style
+```{r,out.width='60%'}
+ggplot(data) +
+  geom_line(aes(x=date,y=corn,col="corn ($/mt)")) +
+  geom_line(aes(x=date,y=oil,col="oil ($/ba)")) +
+  theme_wsj(base_size = 18) + scale_colour_wsj() +
+  xlab("") + ylab("") +
+  theme(legend.title = element_text(size=22)) +
+  scale_color_manual(name="Commodity",
+                     values = c("corn ($/mt)"="steelblue","oil ($/ba)"="darkred"))
+```
+
+## The Economist Style
+```{r,out.width='60%'}
+ggplot(data) +
+  geom_line(aes(x=date,y=corn,col="corn ($/mt)"),size=2) +
+  geom_line(aes(x=date,y=oil,col="oil ($/ba)"),size=2) +
+  theme_economist(base_size = 12) + scale_colour_economist() +
+  theme(legend.title = element_text(size=18)) +
+  xlab("") + ylab("") +
+  scale_color_manual(name="Commodity",
+                     values = c("corn ($/mt)"="steelblue","oil ($/ba)"="darkred"))
+```
