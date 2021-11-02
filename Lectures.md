@@ -15,7 +15,7 @@ order: 2
     - Price Control ([slides]({{ site.baseurl }}/assets/Lectures/Price_Control.pdf))
     - Elasticity ([slides]({{ site.baseurl }}/assets/Lectures/Elasticity.pdf))
     - `Game:` Competitive Markets [[link](https://www.moblab.com/games/continuous-market-game/)]
-    - Hall, et al. "The Effects of Uber’s Surge Pricing: A Case Study," Working Paper. [[link](https://eng.uber.com/research/the-effects-of-ubers-surge-pricing-a-case-study/)]
+    - Hall, et al., "The Effects of Uber’s Surge Pricing: A Case Study," Working Paper. [[link](https://eng.uber.com/research/the-effects-of-ubers-surge-pricing-a-case-study/)]
     - Glaeser, E. and J. Gyourko, “The Economic Implications of Housing Supply,” _JEP_. [[link](https://www.aeaweb.org/articles?id=10.1257/jep.32.1.3)] ([slides]({{ site.baseurl }}/assets/Lectures/Economic_Implications_of_Housing_Supply.pdf))
     - Jensen, R. T. and N. H. Miller, "Giffen Behavior and Subsistence Consumption," _AER_. [[link](http://campuspress.yale.edu/dirkbergemann/files/2012/01/giffen-good.pdf)] ([slides]({{ site.baseurl }}/assets/Lectures/Giffen_Behavior.pdf))
         - The Indiana Jones of Economics [[link](https://github.com/jiamingmao/principles-of-economics/blob/master/Readings/The%20Indiana%20Jones%20of%20Economics.pdf)]
@@ -23,7 +23,7 @@ order: 2
 3. Welfare Analysis ([slides]({{ site.baseurl }}/assets/Lectures/Welfare_Analysis.pdf))
     - Consumer and Producer Surplus [[video](https://www.youtube.com/watch?v=kCKWV-94nsY)]
     - Waldfogel, J., "The Deadweight Loss of Christmas," _AER_. [[link](http://www.jstor.org/stable/2117564?seq=1#page_scan_tab_contents)] ([slides]({{ site.baseurl }}/assets/Lectures/Christmas_and_the_Efficiency_of_Gift-Exchange.pdf))
-    - Cohen, et al. " Using Big Data to Estimate Consumer Surplus: The Case of Uber," Working Paper. [[link](https://ssrn.com/abstract=2837639)] ([slides]({{ site.baseurl }}/assets/Lectures/Estimating_Demand_Elasticities_and_Consumer_Surplus_-_the_Case_of_Uber.pdf))
+    - Cohen, et al., " Using Big Data to Estimate Consumer Surplus: The Case of Uber," Working Paper. [[link](https://ssrn.com/abstract=2837639)] ([slides]({{ site.baseurl }}/assets/Lectures/Estimating_Demand_Elasticities_and_Consumer_Surplus_-_the_Case_of_Uber.pdf))
 
 4. Economic Analysis of Taxation ([slides]({{ site.baseurl }}/assets/Lectures/Taxation.pdf))
     - Corporate Taxation and Tax Avoidance ([slides]({{ site.baseurl }}/assets/Lectures/Corporate_Taxation_and_Tax_Avoidance.pdf))
