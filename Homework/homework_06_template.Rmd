@@ -1,0 +1,22 @@
+---
+title: "Homework 6"
+author: "Xiao Ming"
+output: pdf_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list = ls()) 
+```
+
+## Problem 3
+```{r}
+data <- read.csv('Demand_data.csv')
+p <- data$p
+q <- data$q
+```
+
+### 3.5
+see tutorial: "intro_regression.html"
+```{r}
+lm(log(q)~log(p))
+```
