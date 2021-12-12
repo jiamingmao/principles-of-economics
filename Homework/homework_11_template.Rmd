@@ -1,0 +1,95 @@
+---
+title: "Homework 11"
+author: Xiao Ming
+---
+### Suggested Solutions
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+rm(list = ls()) 
+library(quantmod) # only need to do this once
+```
+
+# Part I
+## Problem 1
+### 1.1
+```{r, message=FALSE, warning=FALSE} 
+
+# note: plz use "message=FALSE, warning=FALSE" in the above ```{r, ...}
+# these are called "chunk options" and can be used to get rid of warnings and messages in your output
+
+billion = 1e9
+t = "1970-01-01/2020-01-01"
+
+us = getSymbols('GDPA',src='FRED',auto.assign=FALSE)
+china = getSymbols('MKTGDPCNA646NWDB',src='FRED',auto.assign=FALSE)
+
+us = us[t]
+china = china[t]/billion
+
+GDP = cbind(us,china)
+colnames(GDP) <- c("US","China")
+
+plot(GDP,legend.loc='topleft',auto.legend=TRUE,main="Nominal GDP (in Billions of Dollars)")
+```
+
+## Problem 3
+### 3.1
+```{r, message=FALSE, warning=FALSE}
+t = "2005-01-01/2020-12-31"
+
+con = getSymbols('USCONSTRQGSP',src='FRED',auto.assign=FALSE)
+man = getSymbols('USMANRQGSP',src='FRED',auto.assign=FALSE)
+
+con = con[t]
+man = man[t]
+
+con = con/coredata(con)[1]
+man = man/coredata(man)[1]
+
+data = cbind(con,man)
+colnames(data) <- c("Construction","Manufacturing")
+plot(data,legend.loc='topleft',auto.legend=TRUE,main="GDP by Sector")
+```
+
+## Part II
+## Problem 1
+### 1.2
+```{r, message=FALSE, warning=FALSE}
+t = "1950-01-01/2020-10-01"
+
+gdpQ = getSymbols('GDP',src='FRED',auto.assign=FALSE)
+gdpQ = gdpQ[t]
+
+# convert quarterly data into annual data
+gdp = apply.yearly(gdpQ,mean) 
+
+plot(gdp,main="U.S. Nominal GDP (in Billions of Dollars)")
+```
+
+### 1.3
+```{r, message=FALSE, warning=FALSE}
+x = (gdp/lag(gdp)-1)*100
+x = x[-1,] #get rid of the first row, which is NA
+barplot(x,main="U.S. GDP Growth Rate based on Nomial GDP (Incorrect)")
+```
+
+## Problem 2
+### 2.1
+```{r, message=FALSE, warning=FALSE}
+t = "2000-01-01/2020-12-01"
+
+china = getSymbols('CHNCPIALLMINMEI',src='FRED',auto.assign=FALSE)
+china = china[t]
+
+# calculate yoy inflation rate
+pi.china = (china/lag(china,12)-1)*100
+pi.china = pi.china[-c(1:12),] #get rid of the first 12 rows, which are NA
+
+plot(pi.china,main="Chinese Inflation")
+```
+
+### 2.2
+```{r, message=FALSE, warning=FALSE}
+# Suppose we want to know how many months Chinese inflation is above 2 percent
+sum(pi.china > 2)
+```
